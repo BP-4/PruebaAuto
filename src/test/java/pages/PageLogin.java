@@ -23,7 +23,7 @@ public class PageLogin {
 		driver.findElement(passwordField).sendKeys(pass);
 		driver.findElement(loginBotton).click();
 		Helpers helper = new Helpers();
-		helper.sleepSeconds(5);
+		helper.sleepSeconds(10);
 	}
 
 }
